@@ -28,9 +28,15 @@
     
 ** Funciones
 *** documenta(abstract, string, timestamp, blame)
-*** taller(tallerista, institucion, Moneda){
-    tallerista prepara taller
-    }
+*** taller()
+:    taller(tallerista, institucion, Moneda){
+:      tallerista prepara taller
+:      institucion provee rider
+:      tallerista ejecuta taller
+:      institucion paga Moneda
+:      65% de Moneda se divide entre talleristas
+:      35% de Moneda queda en home
+:    }
     
     
     
